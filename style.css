@@ -1,7 +1,7 @@
 
 .header::before{
   content: "";
-  background:url(https://github.com/nishanth9491/FActOO/blob/main/images/typewriter-7237018%20(1)_11zon.jpg?raw=true)no-repeat center center/cover;
+  background:url(https://raw.githubusercontent.com/nishanth9491/FActOO/main/images/typewriter-7237018%20(1)_11zon.jpg)no-repeat center center/cover;
 
   position: absolute;
   top: 0px;
