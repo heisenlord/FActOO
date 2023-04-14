@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.from-group input{
+  width: 300px;
+}
+ul{
+    position: relative;
+    top: 5px;
+    left: 25%;
+    
+
+}
+.btn{
+    width: 70px;
+}

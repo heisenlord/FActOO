@@ -1,0 +1,197 @@
+
+.header::before{
+  content: "";
+  background:url(typewriter-7237018\ \(1\)_11zon.jpg)no-repeat center center/cover;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity:0.7;
+
+}
+.header{
+    display: flex;
+    width: auto;
+    height: 200px;
+
+}
+.total
+{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+  background-color: black;
+}
+
+
+
+.left {
+  color: white;
+
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  font-size: 15px;
+}
+.center {
+  display: block;
+  width: 33%;
+
+  margin: 20px auto;
+
+  color: white;
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 50px;
+
+  color: white;
+  display: inline-block;
+}
+.navbar {
+  padding: 30px;
+  display: flex;
+  position: fixed;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  padding: 34px 20px;
+  transition: 1s;
+}
+.navbar li a:hover,
+.navbar li a :active {
+    border: 2px solid black;
+  border-radius: 100px;
+
+  color: bisque;
+}
+.left img {
+  width: 60px;
+  filter: invert();
+
+  opacity: 2;
+  padding-left: 3px;
+}
+.left div {
+  padding-left: 5px;
+  text-align: center;
+  color: rgb(224, 182, 11);
+  background-color: black;
+  
+}
+ .img:hover{
+  opacity: 0.5;
+}
+
+
+.btn {
+  padding: 5px 14px;
+  margin: 10px;
+  background-color: rgb(93, 88, 88);
+  color: white;
+  border-color: none;
+  width: 100px;
+  height: 50px;
+
+  border-style: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: antiquewhite;
+  color: black;
+  font-size: 17px;
+}
+.container {
+    align-items: center;
+    justify-content: center;
+   display: flex;
+  flex-direction: column;
+  height: 320px;
+  position: relative;
+
+}
+.form-group{
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-group input {
+  font-size: 20px;
+
+
+
+  width: 300px;
+
+
+  height: 10px;
+  padding: 30px;
+  border: 2px solid black;
+
+  border-radius: 4px;
+  transition: 1s;
+}
+.form-group input:hover{
+   border-color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    border-radius: 20px;
+    
+    
+}
+.form-group input:active{
+    border-color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    border-radius: 20px;
+
+}
+
+
+
+
+.container h1 {
+
+
+  
+  background-color: black;
+  border-radius: 50px;
+
+  padding: 0px;
+
+
+  display: inline-block;
+
+  border-radius: 2px;
+  font-size: 40px;
+  color: rgb(245, 227, 157);
+
+  transition: 0.5s;
+}
+.container h1:hover {
+  color: black;
+  background-color: rgb(245, 227, 157);
+}
+
+.container button {
+  position: relative;
+  top: 250px;
+  display: block;
+  width: 33%;
+  margin: auto 47%;
+}
