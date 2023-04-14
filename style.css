@@ -74,8 +74,8 @@ body{
 }
 .navbar li a:hover,
 .navbar li a :active {
-    border: 2px solid black;
-  border-radius: 100px;
+   
+ 
 
   color: bisque;
 }
