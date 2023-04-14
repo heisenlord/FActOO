@@ -5,187 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FACTOO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="phone.css">
   </head>
-  <style>
-    body {
-      margin: -10px;
-      padding: 0px;
-      background-image: url(images/typewriter-7237018.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;
-
-      background-position: 0px 0px;
-      background-color: black;
-    }
-    .left {
-      color: white;
-
-      display: inline-block;
-      position: absolute;
-      left: 34px;
-      top: 20px;
-      font-size: 15px;
-    }
-    .center {
-      display: block;
-      width: 33%;
-
-      margin: 20px auto;
-
-      color: white;
-    }
-
-    .right {
-      position: absolute;
-      right: 34px;
-      top: 50px;
-
-      color: white;
-      display: inline-block;
-    }
-    .navbar {
-      padding: 30px;
-      position: fixed;
-    }
-    .navbar li {
-      display: inline-block;
-      font-size: 20px;
-    }
-    .navbar li a {
-      text-decoration: none;
-      font-size: 30px;
-      color: white;
-      padding: 34px 20px;
-      transition: 1s;
-    }
-    .navbar li a:hover,
-    .navbar li a :active {
-        border: 2px solid black;
-      border-radius: 100px;
-
-      color: bisque;
-    }
-    .left img {
-      width: 60px;
-      filter: invert();
-
-      opacity: 2;
-      padding-left: 3px;
-    }
-    .left div {
-      padding-left: 5px;
-      text-align: center;
-      color: rgb(224, 182, 11);
-      background-color: black;
-      
-    }
-     .img:hover{
-      opacity: 0.5;
-    }
-    
-    
-    .btn {
-      padding: 5px 14px;
-      margin: 10px;
-      background-color: rgb(93, 88, 88);
-      color: white;
-      border-color: none;
-      width: 100px;
-      height: 50px;
-
-      border-style: none;
-      border-radius: 10px;
-
-      cursor: pointer;
-    }
-
-    .btn:hover {
-      background-color: antiquewhite;
-      color: black;
-      font-size: 17px;
-    }
-    .container {
-      color: rgb(241, 241, 241);
-      margin: 52px 14px;
-      padding: 40px 49px;
-      width: 75%;
-      border-radius: 14px;
-
-      display: flex;
-      flex-direction: column;
-    }
-    .form-group input {
-      font-size: 20px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-
-      width: 500px;
-      position: relative;
-      top: 250px;
-
-      height: 10px;
-      padding: 30px;
-      border: 2px solid black;
-      margin: auto 36%;
-      border-radius: 4px;
-      transition: 1s;
-    }
-    .form-group input:hover{
-       border-color: rgb(0, 0, 0);
-        background-color: antiquewhite;
-        border-radius: 20px;
-        
-        
-    }
-    .form-group input:active{
-        border-color: rgb(0, 0, 0);
-        background-color: antiquewhite;
-        border-radius: 20px;
-
-    }
-   
-
-
-
-    .container h1 {
-      position: absolute;
-      top: 240px;
-      bottom: auto;
-      left: 590px;
-      margin-right: auto;
-      background-color: black;
-      border-radius: 50px;
-
-      padding: 0px;
-
-      right: auto;
-      display: inline-block;
-
-      border-radius: 2px;
-      font-size: 40px;
-      color: rgb(245, 227, 157);
-      position: relative;
-      transition: 0.5s;
-    }
-    .container h1:hover {
-      color: black;
-      background-color: rgb(245, 227, 157);
-    }
-
-    .container button {
-      position: relative;
-      top: 250px;
-      display: block;
-      width: 33%;
-      margin: auto 47%;
-    }
-  </style>
+ 
   <body>
+    <div class="total">
     <header class="header">
       <div class="left">
-        <a href="https://nishanth9491.github.io/FActOO/">
-          <img class="img" src="images/question-mark-2994534_1920.png" alt="" />
+        <a href="truth-4432841__480.webp">
+          <img class="img" src="https://raw.githubusercontent.com/nishanth9491/FActOO/main/images/question-mark-2994534_1920.png" alt="" />
         </a>
 
         <div>FActOO</div>
@@ -203,23 +32,22 @@
     </header>
     <div class="container">
       <h1>FActOO</h1>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+    </div>
+    
       <form action="mailto:nishanthreddy4566@gmail.com"
       method="post"
       enctype="text/plain">
+
         <div class="form-group">
           <input
-            type="text"  type="text" name="YOUR INPUT ARTICLE HEADING"
+            type="text"  type="text" name="Heading"
             placeholder="Please enter your article heading to FACT check"
           />
           <br />
           <button class="btn">submit</button>
         </div>
       </form>
-    </div>
+    
+  </div>
   </body>
 </html>
