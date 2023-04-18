@@ -147,11 +147,15 @@ body{
 
   border-radius: 4px;
   transition: 1s;
+   border-color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    border-radius: 20px;
+  
 }
 .form-group input:hover{
    border-color: rgb(0, 0, 0);
     background-color: antiquewhite;
-    border-radius: 20px;
+    border-radius: 10px;
     
     
 }
